@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-list_title: ' '
+title: "Welcome!"
 ---
 
 Welcome to my computer and engineering blog! Here you will find projects and articles regarding technology including: arduino, android studio, and 
