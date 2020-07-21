@@ -6,6 +6,6 @@ layout: page
 
 ---
 Welcome to my computer and engineering blog! Here you will find projects and articles regarding technology including: arduino, android studio, and other related topics.
-This is a simple platform that I can use to document and research my journey in learning and discussing the field of engine.
+This is a simple platform that I can use to document and research my journey in learning and discussing the field of engineering.
 
-![Engineering Factory](/assets/images/engineeringfactory.jpg)
+<img src="/assets/images/engineeringfactory.jpg" alt="">
