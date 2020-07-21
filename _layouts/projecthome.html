@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign projectposts = paginator.projectposts %}
+  {% else %}
+    {% assign projectposts = site.projectposts %}
+  {% endif %}
+
+
+  {%- if projectposts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="projectpost-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+    <ul class="projectpost-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for projectpost in projectposts -%}
+      <li>
+        <span class="projectpost-meta">{{ projectpost.date | date: date_format }}</span>
+        <h3>
+          <a class="projectpost-link" href="{{ projectpost.url | relative_url }}">
+            {{ projectpost.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ projectpost.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    {% if site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
+
+  {%- endif -%}
+
+</div>
