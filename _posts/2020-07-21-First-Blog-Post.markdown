@@ -6,7 +6,7 @@ permalink: /:categories/:day/:month/:year/:title.html
 
 ---
 
-![The Begininng of Something](/images/sovietpainting.jpg)
+![The Begininng of Something](/ritish_blog/images/sovietpainting.jpg)
 
 As the first post for this blog, I will dedicate it to how I created it. It was difficult to say the least as
 I was a novice to web building but with perserverance and experience with computer programming I have a finished product.
