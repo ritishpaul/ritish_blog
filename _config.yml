@@ -35,10 +35,14 @@ baseurl: /ritish_blog
 # Build settings
 theme: minima
 
+titles_from_headings:
+  enabled:     true
+  strip_title: false
+  collections: false
 
 plugins:
   - jekyll-feed
-  
+  - jekyll-titles-from-headings
 
 # Exclude from processing.
 # The following items will not be processed, by default.
