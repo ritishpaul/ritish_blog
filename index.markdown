@@ -12,4 +12,4 @@ This is a simple platform that I can use to document and research my journey in 
 
 ![Engineering Factory](/images/engineeringfactory.jpg)
 
-Use the tabs on the top right of the screen to navigate through this website. Thank you coming and enjoy!
+Use the tabs on the top right of the screen to navigate through this website. Thank you for coming and enjoy!
