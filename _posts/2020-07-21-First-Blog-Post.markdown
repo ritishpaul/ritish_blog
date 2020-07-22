@@ -18,7 +18,7 @@ Ideation is the "formulation of ideas or concepts", the idea is this website. Th
 The short answer is documentation. The long answer is as follows: to be able to record and write about topics regarding technology, in which I or anyone viewing this site can refer to.
 In addition to this, I wished to also showcase any projects that I have created in the past and discuss them to the reader.
 
-### Motivation
+#### Motivation
 
 Motivation was something that was the main driving force for this site's creation. Due to the COVID-19 pandemic I have been quarantined for months. 
 I had been spending the time playing video games which was not at all productive. When the summer break hit, I was getting bored of my insane lifestyle
@@ -31,7 +31,7 @@ and skills as a programmer.
 So how did I create this website? I first set up my GitHub account and learnt about GitHub Pages. GitHub Pages is a easy way for users to host websites that are connect to the account's repositories. 
 This was perfect for me as I simply wanted to publish a website without having to buy a domain for it. With this out of the way, I needed to figure out a way to write the website.
 
-### Jekyll
+#### Jekyll
 
 ![Jekyll](/ritish_blog/images/JekyllLogo.png)
 
@@ -39,7 +39,7 @@ After searching through the web once more, I came across Jekyll, a static site g
 and creates a complete, static website ready to be served by a web server." This was perfect for the type of site that I was thinking of however it is created with Ruby, a language that I do not have
 experience with. In order to learn about the basics of Jekyll, I watched these [tutroials](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB). 
 
-### GitHub and Git
+#### GitHub and Git
 
 
 
