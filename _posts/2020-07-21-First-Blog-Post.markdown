@@ -28,7 +28,7 @@ and skills as a programmer.
 
 ## Implementation
 
-So how did I create this website? I first set up my GitHub account and learnt about GitHub Pages. GitHub Pages is an easy way for users to host websites that are connect to the account's repositories. 
+So how did I create this website? I first set up my GitHub account and learnt about GitHub Pages. GitHub Pages is an easy way for users to host websites that connect to the account's repositories. 
 This was perfect for me as I simply wanted to publish a website without having to buy a domain for it. With this out of the way, I needed to figure out a way to write the website.
 
 #### Jekyll
