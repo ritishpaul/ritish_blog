@@ -40,5 +40,23 @@ and creates a complete, static website ready to be served by a web server." This
 
 #### GitHub and Git
 
+I used Git to create a file of the website onto my computer and work on it locally. Using Git was optional since it is mainly utilized for projects involving more than one programmer.
+Since this is an independent site I could of simply coded it via its GitHub page, but I chose not to. Why? Because learning Git is a skill that would help me for group projects.
+Git is popular amongst programmers as it is used to track changes in projects and because of this you never know when you may need to know a control system like that.
+
+#### Markdown 
+
+Markdown is a lightweight markup language that is creating rich text using a plain text editor. It is the language that I am currently using to communicate these words to you.
+It is fairly easy to understand and with a syntax cheat sheet you can know the majority of it in no time. Perfect for a blog!
+
+## Reflection
+
+After the site was finished and I could begin writing my posts, I began thinking of my ideation. Speficially, I thought of how I was able to put forth my idea into something tangable like this site.
+I learned a great deal by creating this website. For example Ruby, Jekyll, GitHub, Git, and Markdown. But most importantly I began appreciating the field engineering more. 
+The aspect of creating something and the process of planning is something that exhilirates me more than anything. As a result, I hope you expect more blog posts that are about tech-related
+projects that I have created. This will be the crux of this site. 
+
+
+
 
 
