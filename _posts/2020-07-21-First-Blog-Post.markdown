@@ -51,7 +51,7 @@ It is fairly easy to understand and with a syntax cheat sheet you can know the m
 
 ## Reflection
 
-After the site was finished and I could begin writing my posts, I began thinking of my ideation. Speficially, I thought of how I was able to put forth my idea into something tangable like this site.
+After the site was finished and I could begin writing my posts, I began thinking of my ideation. Specifically , I thought of how I was able to put forth my idea into something tangable like this site.
 I learned a great deal by creating this website. For example Ruby, Jekyll, GitHub, Git, and Markdown. But most importantly I began appreciating the field engineering more. 
 The aspect of creating something and the process of planning is something that exhilirates me more than anything. As a result, I hope you expect more blog posts that are about tech-related
 projects that I have created. This will be the crux of this site. 
