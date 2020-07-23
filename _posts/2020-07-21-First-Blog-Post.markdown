@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Post and Setting Up the Site
-categories: offtopic
+categories: website
 permalink: /:categories/:day/:month/:year/:title.html
 
 ---
