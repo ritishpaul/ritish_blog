@@ -36,7 +36,7 @@ This was perfect for me as I simply wanted to publish a website without having t
 ![Jekyll](/ritish_blog/images/JekyllLogo.png)
 
 After searching through the web once more, I came across Jekyll, a static site generator for blogs. According to its GitHub page, "Jekyll takes your content, renders Markdown and Liquid templates,
-and creates a complete, static website ready to be served by a web server." This was perfect for the type of site that I was thinking of. In order to learn about the basics of Jekyll, I watched these [tutroials](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB). 
+and creates a complete, static website ready to be served by a web server." This was perfect for the type of site that I was thinking of. In order to learn about the basics of Jekyll, I watched these [tutorials](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB). 
 
 #### GitHub and Git
 
