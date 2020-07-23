@@ -2,7 +2,7 @@
 layout: post
 title: First Post and Setting Up the Site
 categories: website
-permalink: /:categories/:day/:month/:year/:title.html
+permalink: /:categories/:title.html
 
 ---
 
