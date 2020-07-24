@@ -10,7 +10,7 @@ Welcome to my computer and engineering blog! Here you will find projects and art
 This is a simple platform that I can use to document and research my journey in learning and discussing the field of engineering. Use the tabs on the top right of the screen 
 to navigate through this website. Thank you for coming and enjoy!
 
-						![Engineering Factory](/images/chimponcomputer.jpg)
+![Engineering Factory](/images/chimponcomputer.jpg)
 
 
 
