@@ -43,6 +43,7 @@ titles_from_headings:
 plugins:
   - jekyll-feed
   - jekyll-titles-from-headings
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
