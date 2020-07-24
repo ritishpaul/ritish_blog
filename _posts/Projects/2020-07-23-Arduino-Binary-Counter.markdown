@@ -6,7 +6,13 @@ permalink: /:categories/:title.html
 
 ---
 
+![Finished Arduino](/ritish_blog/images/binaryarduino.jpg)
 
+## Required Items
+
+## Arduino and Circuit
+
+## Reflection
 
 
 
