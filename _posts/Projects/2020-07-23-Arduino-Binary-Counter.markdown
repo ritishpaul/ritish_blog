@@ -35,7 +35,7 @@ binary code is used to encode data, allowing humans to represent characters in h
 
 Here is a table that shows binary numbers up to 15 with their decimal value. 
 
-| Exponent	  | Value		| Binary      |
+| Exponent	  |Decimal Value| Binary      |
 |    :----:   |    :----:   |    :----:   |
 | 2^0	      | 1       	| 0000		  |
 | 2^1         | 2           | 0001        |
