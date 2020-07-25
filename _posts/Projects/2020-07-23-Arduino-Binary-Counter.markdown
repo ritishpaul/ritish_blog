@@ -24,7 +24,6 @@ Before we get into this project, I would like to dedicate a bit of text to defin
 
 #### What is Binary?
 
-![Gottfried Leibniz](/ritish_blog/images/GottfriedLeibniz.jpg)
 
 Binary is a base 2 number system that was invented by [Gottfried Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz), a prominent German polymath during the 17th century. It is made up of two numbers: 0 and 1. These numbers can
 be put together in combination to create larger numbers that can store more information. For example 1110 is equal to 14.
@@ -37,7 +36,7 @@ binary code is used to encode data, allowing humans to represent characters in h
 Here is a table that shows binary numbers up to 15 with their decimal value. 
 
 | Exponent	  | Value		| Binary      |
-| ----------- | ----------- | ----------- |
+|    :----:   |    :----:   |    :----:   |
 | 2^0	      | 1       	| 0000		  |
 | 2^1         | 2           | 0001        |
 | 2^2	  	  | 4		    | 0010        |
