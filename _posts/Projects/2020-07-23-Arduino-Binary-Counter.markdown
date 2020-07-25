@@ -8,7 +8,7 @@ permalink: /:categories/:title.html
 
 ![Finished Arduino](/ritish_blog/images/binaryarduino.jpg)
 
-For my first arduino project, I will be creating a simple but effective binary counter. This counter will be able to show numbers up to fifteen in binary. This project will 
+For my first arduino project, I will be creating a simple but effective binary counter. This counter will be able to show numbers up to 15 in binary. This project will 
 reinforce the concept of circuit flow and refamiliarize yourself with the fundamentals of an arduino with a breadboard.
 
 ## Required Items
@@ -23,13 +23,16 @@ reinforce the concept of circuit flow and refamiliarize yourself with the fundam
 Before we get into this project, I would like to dedicate a bit of text to define binary and its importance in technology. 
 
 #### What is Binary?
-Binary is a base 2 number system that was invented by Gottfried Leibniz, a prominent German polymath during the 17th century. It is made up of two numbers: 0 and 1. In addition to this,
-you can refer to as the "language of technology" as this is how humans rudimentary communicate with tech.
+
+![Gottfried Leibniz](/ritish_blog/images/GottfriedLeibniz.jpg)
+
+Binary is a base 2 number system that was invented by [Gottfried Leibniz](https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz), a prominent German polymath during the 17th century. It is made up of two numbers: 0 and 1. These numbers can
+be put together in combination to create larger numbers that can store more information. For example 1110 is equal to 14.
 
 #### How does Binary Work?
 The numbers 0 and 1 represent OFF or ON, as a result, these numbers are shown physically inside the computing device which permits calculation. Binary numbers work in conjunction with
 binary code. Binary code can represent text, computer processor insructions, or any other data. The code assigns a pattern of binary digits, known as bits to each character. In this case,
-binary code is used to encode data, allowing humans to represent characters in the English language to other symbols. 
+binary code is used to encode data, allowing humans to represent characters in human languages or other symbols. 
 
 Here is a table that shows binary numbers up to 15 with their decimal value. 
 
