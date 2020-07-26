@@ -8,8 +8,7 @@ permalink: /:categories/:title.html
 
 ![Finished Arduino](/ritish_blog/images/binaryarduino.jpg)
 
-For my first arduino project, I created a simple but effective binary counter (shown above). This counter showed numbers up to 15 in binary. This project  
-reinforced the concept of circuit flow and refamiliarized myself with the fundamentals of an arduino with a breadboard.
+For my first arduino project, I created a simple but effective binary counter (shown above). This counter showed numbers up to 15 in binary. This project reinforced the concept of circuit flow and refamiliarized myself with the fundamentals of an arduino with a breadboard.
 
 ## Required Items
 
@@ -53,7 +52,7 @@ Now lets dive into the arduino and circuit I have created to represent binary nu
 
 #### Circuit Diagram
 
-![Circuit Diagram](/ritish_blog/images/binarycircuit.png)
+![Circuit](/ritish_blog/images/binarycircuit.png)
 
 Setting up the LEDs in a horizontal manner would be the most logical as you can see them clearly without having to twist
 the arduino or breadboard. Next up was to connect these diodes with some power. The part of the breadboard from a-j
