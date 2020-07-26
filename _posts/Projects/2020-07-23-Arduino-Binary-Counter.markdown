@@ -63,10 +63,10 @@ ground port of the arduino.
 
 #### Code
 
-Page 1:
+Here is the code for the program. It is coded up to 10 just so the pattern of the code could be recognized.
+
 ![Page1](/ritish_blog/images/arduinobinarycode1.jpg)
 
-Page 2:
 ![Page2](/ritish_blog/images/arduinobinarycode2.jpg)
 
 
