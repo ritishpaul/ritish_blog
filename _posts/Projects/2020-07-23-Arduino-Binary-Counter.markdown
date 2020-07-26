@@ -63,9 +63,11 @@ ground port of the arduino.
 
 #### Code
 
-Here is the [code]({{ https://ritishpaul.github.io/ritish_blog/ }}/downloads/arduinobinarycode.pdf).
+Page 1:
+![Page1](/ritish_blog/images/arduinobinarycode1.jpg)
 
-
+Page 2:
+![Page2](/ritish_blog/images/arduinobinarycode2.jpg)
 
 
 ## Reflection
