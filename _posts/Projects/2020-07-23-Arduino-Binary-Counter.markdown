@@ -63,8 +63,9 @@ ground port of the arduino.
 
 #### Code
 
-Here is the [code]({{ https://ritishpaul.github.io/ritish_blog/ }}/downloads/arduinobinarycode.txt). For the 
-sake of space I coded up to the integer 10.
+Here is the [code][1] 
+
+[1]:{{ https://ritishpaul.github.io/ritish_blog/ }}/downloads/arduinobinarycode.txt
 
 
 ## Reflection
