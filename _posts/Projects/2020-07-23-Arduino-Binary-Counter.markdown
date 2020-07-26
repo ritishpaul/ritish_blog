@@ -42,7 +42,7 @@ Here is a table that shows binary numbers up to 15 with their decimal value.
 | 2^2	  	  | 4		    | 0010        |
 | 2^3		  | 8			| 0011        |
 
-#### How do you Read Binary?
+#### How do you Read Binary Numbers?
 
 
 ## Arduino and Circuit
