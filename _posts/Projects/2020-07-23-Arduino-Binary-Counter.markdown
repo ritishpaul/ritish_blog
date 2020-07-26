@@ -52,7 +52,7 @@ Now lets dive into the arduino and circuit I have created to represent binary nu
 
 #### Circuit Diagram
 
-![Circuit](/ritish_blog/images/binarycircuit.png)
+![Circuit](/ritish_blog/images/circuitbinary.jpg)
 
 Setting up the LEDs in a horizontal manner would be the most logical as you can see them clearly without having to twist
 the arduino or breadboard. Next up was to connect these diodes with some power. The part of the breadboard from a-j
