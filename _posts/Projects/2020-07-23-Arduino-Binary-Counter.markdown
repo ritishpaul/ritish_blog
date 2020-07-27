@@ -42,9 +42,9 @@ Here is a table that shows binary numbers up to 15 with their decimal value.
 
 #### How do you Read Binary Numbers?
 
-Binary can be converted into decimal value by reading the binary number from right to life and recognizing that with "slot"
+Binary can be converted into decimal value by reading the binary number from right to left and recognizing that with "slot"
 the values are doubled. To elaborate, suppose we have 100011. The first digit from the right has a value of 1, the second is
-a 2, then a 4, etc. Using this, we can determine the binary number to be 32+0+0+0+2+1 = 35 in decimal value.
+a 2, then a 4, etc. Using this we can determine the binary number to be 32+0+0+0+2+1 = 35 in decimal value.
 
 ## Arduino and Circuit
 
@@ -56,24 +56,24 @@ Now lets dive into the arduino and circuit I have created to represent binary nu
 
 Setting up the LEDs in a horizontal manner would be the most logical as you can see them clearly without having to twist
 the arduino or breadboard. Next up was to connect these diodes with some power. The part of the breadboard from a-j
-sends current vertically whereas the + and - does it horizontally. So from the ports 5-2, I connected them to the column
+sends current vertically whereas the + and - does it horizontally. So from ports 5-2, I connected them to the column
 that leads to the long leg of their respective LED. After that, I reduced the current flow by placing resistors 
 that connected the electric flow onto the other side of the breadboard. Lastly, I connected all of the LEDs to the 
 ground port of the arduino.
 
 #### Code
 
-Here is the code for the program. It is coded up to 10 just so the pattern of the code could be recognized.
+Here is the code for the program. It is coded up to 10 for space sake.
 
-int pin2 = 2;
-int pin3 = 3;
-int pin4 = 4;
-int pin5 = 5;
-int waittime = 1000;
+int pin2 = 2;  
+int pin3 = 3;  
+int pin4 = 4;  
+int pin5 = 5;  
+int waittime = 1000;  
 
 void setup() {  
-
   // put your setup code here, to run once:   
+  
   pinMode (pin2, OUTPUT);   
   pinMode (pin3, OUTPUT);  
   pinMode (pin4, OUTPUT);  
@@ -81,7 +81,6 @@ void setup() {
 }  
 
 void loop() {  
-  
   // put your main code here, to run repeatedly:  
   
   //0  
@@ -164,6 +163,9 @@ void loop() {
 
 
 ## Reflection
+
+Overall, this is a nice starter project that will hopefully increase your knowledge in binary as well as reinforce the fundamentals of an arduino with a breadboard.
+In addition to this, it should reinforce the syntax and structure of arduino code.
 
 
 
