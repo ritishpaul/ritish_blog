@@ -71,105 +71,95 @@ int pin4 = 4;
 int pin5 = 5;
 int waittime = 1000;
 
-void setup() {
+void setup() {  
 
-  // put your setup code here, to run once:  
-  pinMode (pin2, OUTPUT);  
-  pinMode (pin3, OUTPUT);
-  pinMode (pin4, OUTPUT);
-  pinMode (pin5, OUTPUT);
-}
+  // put your setup code here, to run once:   
+  pinMode (pin2, OUTPUT);   
+  pinMode (pin3, OUTPUT);  
+  pinMode (pin4, OUTPUT);  
+  pinMode (pin5, OUTPUT);  
+}  
 
-void loop() {
+void loop() {  
   
-  // put your main code here, to run repeatedly:
+  // put your main code here, to run repeatedly:  
   
-  //0
-  digitalWrite (pin5, LOW);
-  digitalWrite (pin4, LOW);
-  digitalWrite (pin3, LOW);
-  digitalWrite (pin2, LOW);
-  delay(waittime);
+  //0  
+  digitalWrite (pin5, LOW);  
+  digitalWrite (pin4, LOW);  
+  digitalWrite (pin3, LOW);  
+  digitalWrite (pin2, LOW);  
+  delay(waittime);  
 
-  //1
-  digitalWrite (pin5, HIGH);
-  digitalWrite (pin4, LOW);
-  digitalWrite (pin3, LOW);
-  digitalWrite (pin2, LOW);
-  delay(waittime);
+  //1  
+  digitalWrite (pin5, HIGH);  
+  digitalWrite (pin4, LOW);  
+  digitalWrite (pin3, LOW);  
+  digitalWrite (pin2, LOW);  
+  delay(waittime);  
 
-  //2
-  
-  digitalWrite (pin5, LOW);
-  digitalWrite (pin4, HIGH);
-  digitalWrite (pin3, LOW);
-  digitalWrite (pin2, LOW);
-  delay(waittime);
+  //2  
+  digitalWrite (pin5, LOW);  
+  digitalWrite (pin4, HIGH);  
+  digitalWrite (pin3, LOW);  
+  digitalWrite (pin2, LOW);  
+  delay(waittime);  
 
-  //3 
-  digitalWrite (pin5, HIGH);
-  digitalWrite (pin4, HIGH);
-  digitalWrite (pin3, LOW);
-  digitalWrite (pin2, LOW);
+  //3   
+  digitalWrite (pin5, HIGH);  
+  digitalWrite (pin4, HIGH);  
+  digitalWrite (pin3, LOW);  
+  digitalWrite (pin2, LOW);   
+  delay(waittime);  
 
- 
-  delay(waittime);
+  //4  
+  digitalWrite (pin5, LOW);  
+  digitalWrite (pin4, LOW);  
+  digitalWrite (pin3, HIGH);  
+  digitalWrite (pin2, LOW);  
+  delay(waittime);  
 
-  //4
-  digitalWrite (pin5, LOW);
-  digitalWrite (pin4, LOW);
-  digitalWrite (pin3, HIGH);
-  digitalWrite (pin2, LOW);
+  //5  
+  digitalWrite (pin5, HIGH);  
+  digitalWrite (pin4, LOW);  
+  digitalWrite (pin3, HIGH);  
+  digitalWrite (pin2, LOW);  
+  delay(waittime);  
 
-  delay(waittime);
+  //6  
+  digitalWrite (pin5, LOW);  
+  digitalWrite (pin4, HIGH);  
+  digitalWrite (pin3, HIGH);  
+  digitalWrite (pin2, LOW);  
+  delay(waittime);  
 
-  //5
-  digitalWrite (pin5, HIGH);
-  digitalWrite (pin4, LOW);
-  digitalWrite (pin3, HIGH);
-  digitalWrite (pin2, LOW);
+  //7  
+  digitalWrite (pin5, HIGH);  
+  digitalWrite (pin4, HIGH);  
+  digitalWrite (pin3, HIGH);  
+  digitalWrite (pin2, LOW);  
+  delay(waittime);  
 
-  delay(waittime);
+  //8  
+  digitalWrite (pin5, LOW);  
+  digitalWrite (pin4, LOW);  
+  digitalWrite (pin3, LOW);  
+  digitalWrite (pin2, HIGH);  
+  delay(waittime);  
 
-  //6
-  digitalWrite (pin5, LOW);
-  digitalWrite (pin4, HIGH);
-  digitalWrite (pin3, HIGH);
-  digitalWrite (pin2, LOW);
+  //9  
+  digitalWrite (pin5, HIGH);  
+  digitalWrite (pin4, LOW);  
+  digitalWrite (pin3, LOW);  
+  digitalWrite (pin2, HIGH);  
+  delay(waittime);  
 
-  delay(waittime);
-
-  //7
-  digitalWrite (pin5, HIGH);
-  digitalWrite (pin4, HIGH);
-  digitalWrite (pin3, HIGH);
-  digitalWrite (pin2, LOW);
-
-  delay(waittime);
-
-  //8
-  digitalWrite (pin5, LOW);
-  digitalWrite (pin4, LOW);
-  digitalWrite (pin3, LOW);
-  digitalWrite (pin2, HIGH);
-
-  delay(waittime);
-
-  //9
-  digitalWrite (pin5, HIGH);
-  digitalWrite (pin4, LOW);
-  digitalWrite (pin3, LOW);
-  digitalWrite (pin2, HIGH);
-
-  delay(waittime);
-
-  //10
-  digitalWrite (pin5, LOW);
-  digitalWrite (pin4, HIGH);
-  digitalWrite (pin3, LOW);
-  digitalWrite (pin2, HIGH);
-
-  delay(waittime);
+  //10  
+  digitalWrite (pin5, LOW);  
+  digitalWrite (pin4, HIGH);  
+  digitalWrite (pin3, LOW);  
+  digitalWrite (pin2, HIGH);  
+  delay(waittime);  
 }
 
 
