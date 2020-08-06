@@ -38,7 +38,7 @@ The specific model of this sensor is HC-SR04. As a result, it has 4 pins to conn
 
 #### Circuit Diagram 
 
-![Ultrasonic Circuit](/ritish_blog/images/circuitultrasonic.png)
+![Ultrasonic Circuit](/ritish_blog/images/circuitultrasonic.PNG)
 
 Hooking up the ultrasonic sensor is simple as shown by the diagram above. The Trig pin is connected to port 2 and the Echo pin is connect to port 3. The VCC port is connected to the 5V port. Lastly, the Ground port is connected to the GND port.
 
