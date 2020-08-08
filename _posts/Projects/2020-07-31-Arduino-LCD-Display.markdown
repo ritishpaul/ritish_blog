@@ -24,6 +24,8 @@ in order to show the many applications of this device.
 
 ## Understanding the LCD Screen 
 
+#### Concept and Structure
+
 ![LCD Diagram](/ritish_blog/images/lcddiagram.png)
 
 The Liquid Crystal Display (LCD) is a display technology that is popular and used in many electronic projects due to their ability to present information while remaining cheap. It uses
