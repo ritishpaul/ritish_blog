@@ -53,7 +53,7 @@ In this case the speed of sound is 340m/s, by using dimensional analysis we can 
 
 #### Code
 
-```
+
 // define pins  
 int trigPin = 2;  
 int echoPin = 3;  
@@ -87,7 +87,7 @@ void loop() {
   Serial.println(" cm");  
   delay(750);  
 }  
-```
+
 
 #### Code Explained
 
