@@ -84,7 +84,7 @@ int d7 = 8;
 
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7); // Initialize LCD Display  
 
-// define ultrasonic sensor pins   
+// define ultrasonic sensor pins  
 int trigPin = 2;  
 int echoPin = 3;  
 
@@ -139,8 +139,10 @@ with its previous copy.
 
 ## Reflection 
 
-The LCD display can turn out to be an extremely useful component for your arduino project as it removes the need for the user to open up the programs serial monitor. This is a crucial 
-part if you are thinking of using something like an arduino nano to create a portable project that does not use your PC for the power source. Additionally, for new arduino users 
+![Luv LCD](/ritish_blog/images/luvlcd.gif)
+
+The LCD display can turn out to be an extremely useful component for your arduino project as it removes the need for the user to open up the program's serial monitor. This is crucial 
+if you are thinking of using something like an arduino nano to create a portable project that does not use your PC for the power source. Additionally, for new arduino users 
 it is one of the first times they will realize the importance of wire management. Although I tried my best with connecting the wires as neat as possible, it still looks clogged with jumper wires everywhere. 
 Now imagine this on a large scale project like a drone or RC car! As a result, I would recommend buying U shaped jumper wires like [these](https://amzn.to/2F8kuF8) or threads to group your wires together. 
 
