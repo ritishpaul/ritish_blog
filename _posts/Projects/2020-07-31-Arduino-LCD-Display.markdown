@@ -50,7 +50,7 @@ Note: This circuit uses 4 out of the 8 data pins meaning it will be in 4-bit mod
 
 ## Circuit Diagram
 
-![LCD Circuit](/ritish_blog/images/circuitlcd.png)
+![LCD Circuit](/ritish_blog/images/circuitlcd.PNG)
 
 As you see the circuit you will notice that each wire is color coded with its repsective part. This being yellow for the LCD display, blue for the 10k potentiometer, and green for the ultrasonic sensor.
 
