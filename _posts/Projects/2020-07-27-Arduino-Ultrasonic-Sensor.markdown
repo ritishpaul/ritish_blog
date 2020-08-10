@@ -8,7 +8,7 @@ permalink: /:categories/:title.html
 
 ![Ultrasonic Arduino](/ritish_blog/images/ultrasonicarduino.jpg)
 
-This arduino tutorial will introduce the ultrasonic sensor and its use for determining the distance from an object to it in centermeters. This project will expand your knowledge of arduino code and its relation with specific tools.
+This Arduino tutorial will introduce the ultrasonic sensor and its use for determining the distance from an object to it in centimeters. This project will expand your knowledge of Arduino code and its relation with specific tools.
 
 ## Required Items
 
@@ -48,7 +48,7 @@ Hooking up the ultrasonic sensor is simple as shown by the diagram above. The Tr
 #### Dimensional Analysis
 
 Before you see the code, I wish to dedicate a portion of this post to dimensional analysis. Dimensional analysis or the factor-label method is a way to convert one type of unit to another. This is done by analyzing the quantities base units and measurements.
-It is important in this tutorial as we must use it in order to get the correct calculation for the rate at which the ultrasound travels. By determining this rate we can then calculate the distance of an object in centermeters (d = speed*time).
+It is important in this tutorial as we must use it in order to get the correct calculation for the rate at which the ultrasound travels. By determining this rate we can then calculate the distance of an object in centimeters (d = speed*time).
 In this case the speed of sound is 340m/s, by using dimensional analysis we can convert that rate into **0.034cm/µs**. Note that time will always be in microseconds when doing this type of conversion for this.
 
 #### Code
@@ -90,7 +90,7 @@ void loop() {
 
 #### Code Explained
 
-In the beginning I have delcared my necessary pins and variables. In the set up I listed the trig pin as accepting output and echo accepting input (if you are unsure why refer to "Specifications of the Sensor" section).
+In the beginning I have declared my necessary pins and variables. In the set up I listed the trig pin as accepting output and echo accepting input (if you are unsure why refer to "Specifications of the Sensor" section).
 In the loop method, I first set the trig pin to low in order to clear it and then turned it on and off so that the wave could be emitted. All of this is done for 10 microseconds.
 Then I store the time of the wave in the pingTravelTime variable and with it am able to calculate the distance of the wave. Notice that the formula for the distance is time*speed/2. The reason we have
 to divide by 2 is because the wave travels in two directions from the sensors. Forward when being emitted and backward when being received. As a result, the distance is doubled
@@ -100,5 +100,5 @@ which will be inaccurate as we wish to find the distance of the object from the 
 
 ![Waves](/ritish_blog/images/soundwave.gif)
 
-All in all, this project was extremely fun to create and compose as it further explored arduino code and also allowed us to create something that could have practical use (measuring distance of an object).
-Ultimately, it should have also introduced to you a new chapter of the arduino: third party tools that can be controlled.
+All in all, this project was extremely fun to create and compose as it further explored Arduino code and also allowed us to create something that could have practical use (measuring distance of an object).
+Ultimately, it should have also introduced to you a new chapter of the Arduino: third party tools that can be controlled.

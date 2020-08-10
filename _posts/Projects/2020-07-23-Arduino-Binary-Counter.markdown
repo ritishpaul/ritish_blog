@@ -8,7 +8,7 @@ permalink: /:categories/:title.html
 
 ![Finished Arduino](/ritish_blog/images/binaryarduino.jpg)
 
-For my first arduino project, I created a simple but effective binary counter (shown above). This counter showed numbers up to 15 in binary. This project reinforced the concept of circuit flow and refamiliarized myself with the fundamentals of an arduino with a breadboard.
+For my first Arduino project, I created a simple but effective binary counter (shown above). This counter showed numbers up to 15 in binary. This project reinforced the concept of circuit flow and refamiliarized myself with the fundamentals of an Arduino with a breadboard.
 
 ## Required Items
 
@@ -28,7 +28,7 @@ be put together in combination to create larger numbers that can store more info
 
 #### How does Binary Work?
 The numbers 0 and 1 represent OFF or ON, as a result, these numbers are shown physically inside the computing device which permits calculation. Binary numbers work in conjunction with
-binary code. Binary code can represent text, computer processor insructions, or any other data. The code assigns a pattern of binary digits, known as bits to each character. In this case,
+binary code. Binary code can represent text, computer processor instructions, or any other data. The code assigns a pattern of binary digits, known as bits to each character. In this case,
 binary code is used to encode data, allowing humans to represent characters in human languages or other symbols.
 
 Here is a table that shows binary numbers up to 15 with their decimal value.
@@ -55,11 +55,11 @@ Now lets dive into the arduino and circuit I have created to represent binary nu
 ![Circuit](/ritish_blog/images/circuitbinary.jpg)
 
 Setting up the LEDs in a horizontal manner would be the most logical as you can see them clearly without having to twist
-the arduino or breadboard. Next up was to connect these diodes with some power. The part of the breadboard from a-j
+the Arduino or breadboard. Next up was to connect these diodes with some power. The part of the breadboard from a-j
 sends current vertically whereas the + and - does it horizontally. So from ports 5-2, I connected them to the column
 that leads to the long leg of their respective LED. After that, I reduced the current flow by placing resistors
 that connected the electric flow onto the other side of the breadboard. Lastly, I connected all of the LEDs to the
-ground port of the arduino.
+ground port of the Arduino.
 
 #### Code
 
@@ -165,5 +165,5 @@ void loop() {
 
 ## Reflection
 
-Overall, this is a nice starter project that will hopefully increase your knowledge in binary as well as reinforce the fundamentals of an arduino with a breadboard.
-In addition to this, it should reinforce the syntax and structure of arduino code.
+Overall, this is a nice starter project that will hopefully increase your knowledge in binary as well as reinforce the fundamentals of an Arduino with a breadboard.
+In addition to this, it should reinforce the syntax and structure of Arduino code.

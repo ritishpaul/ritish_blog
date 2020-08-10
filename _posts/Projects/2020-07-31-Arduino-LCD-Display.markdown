@@ -6,7 +6,7 @@ permalink: /:categories/:title.html
 
 ---
 
-![LCD Arduino](/ritish_blog/images/ledarduino.jpg)
+![LCD Arduino](/ritish_blog/images/led2arduino.jpg)
 
 Hello! Today's tutorial will introduce a versatile and common tool used in Arduino projects, the LCD display. This project will **expand your knowledge of Arduino code** and **wire management in a circuit**. I will be utilizing the [previous project's circuit](https://ritishpaul.github.io/ritish_blog/project/Arduino-Ultrasonic-Sensor.html) and apply the LCD display to it
 in order to show the application of this device.
@@ -52,7 +52,7 @@ Note: This circuit uses 4 out of the 8 data pins meaning it will be in 4-bit mod
 
 ![LCD Circuit](/ritish_blog/images/circuitlcd.PNG)
 
-As you examine the circuit you will notice that each wire is color coded with its repsective part. This being yellow for the LCD display, blue for the 10k potentiometer, and green for the ultrasonic sensor.
+As you examine the circuit you will notice that each wire is color coded with its respective part. This being yellow for the LCD display, blue for the 10k potentiometer, and green for the ultrasonic sensor.
 
 #### LCD Display
 Starting off with the LCD display, the VSS and VDD pins are connected to the ground and 5V rails at the top of the breadboard. VO is connected to the center pin of the potentiometer. The RS pin is connected to the 13 pin of the Arduino.
@@ -143,7 +143,7 @@ with its previous copy.
 ##### Source: gfycat
 
 The LCD display can turn out to be an extremely useful component for your Arduino project as it removes the need for the user to open up the program's serial monitor. This is crucial
-if you are thinking of using something like an Arduino nano to create a portable project that does not use your PC for the power source. Additionally, for new Arduino users
+if you are thinking of using something like an Arduino Nano to create a portable project that does not use your PC for the power source. Additionally, for new Arduino users
 it is one of the first times they will realize the importance of wire management. Although I tried my best with connecting the wires as neat as possible, it still looks clogged with jumper wires everywhere.
 Now imagine this on a large scale project like a drone or RC car! As a result, I would recommend buying U shaped jumper wires like [these](https://amzn.to/2F8kuF8) or threads to group your wires together. Until next time, cheers!
 
