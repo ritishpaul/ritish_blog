@@ -101,3 +101,7 @@ which will be inaccurate as we wish to find the distance of the object from the 
 
 All in all, this project was extremely fun to create and compose as it further explored Arduino code and also allowed us to create something that could have practical use (measuring distance of an object).
 Ultimately, it should have also introduced to you a new chapter of the Arduino: third party tools that can be controlled.
+
+## Sources
+- [What is an Ultrasonic Sensor](https://www.fierceelectronics.com/sensors/what-ultrasonic-sensor#:~:text=An%20ultrasonic%20sensor%20is%20an,sound%20that%20humans%20can%20hear.)
+- [HC-SR04 Ultrasonic Sensor Specifications](https://components101.com/ultrasonic-sensor-working-pinout-datasheet)
