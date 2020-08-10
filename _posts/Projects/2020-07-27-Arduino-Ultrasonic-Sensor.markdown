@@ -24,6 +24,7 @@ Let's talk about the tool we are working with today, the ultrasonic sensor.
 #### What is it?
 
 ![Ultrasonic Waves](/ritish_blog/images/ultrasonicwaves.png)
+##### Source: maxbotix
 
 An ultrasonic sensor is a device that **measures distance by using ultrasonic waves**. The wave is emitted by the sensor head, then reflected back from a target and received by another sensor head.
 The sensor is able to measure the distance of the object by measuring the time between its wave emission and reception. The ultrasound is measured at 40 000 Hz.
@@ -34,8 +35,6 @@ The sensor is able to measure the distance of the object by measuring the time b
 ![Ultrasonic Sensor](/ritish_blog/images/Ultrasonicsensor.png)
 
 The specific model of this sensor is HC-SR04. As a result, it has 4 pins to connect to: Ground, VCC, Trig, and Echo. The VCC pin refers to the power supply. Trig is the pin that emits the ultrasound. Echo is the pin that receives the ultrasound.
-
-
 
 ## Arduino and Circuit
 
