@@ -87,7 +87,7 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7); // Initialize LCD Display
 // define ultrasonic sensor pins   
 int trigPin = 2;  
 int echoPin = 3;  
-```
+
 // variables  
 float pingTravelTime;  
 float pingTravelDistance;  
@@ -126,6 +126,7 @@ lcd.print(" cm");
 delay(1000);  
 lcd.clear();  
 }  
+```
 
 #### Code Explained
 
