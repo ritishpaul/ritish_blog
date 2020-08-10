@@ -83,8 +83,7 @@ int d6 = 9;
 int d7 = 8;  	 
 
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7); // Initialize LCD Display  
-```
-```
+
 // define ultrasonic sensor pins   
 int trigPin = 2;  
 int echoPin = 3;  
