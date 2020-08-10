@@ -8,8 +8,8 @@ permalink: /:categories/:title.html
 
 ![LCD Arduino](/ritish_blog/images/ledarduino.jpg)
 
-Hello! Today's tutorial will introduce a versatile and common tool used in arduino projects, the lcd display. This project will **expand your knowledge of arduino code** and
-**wire management in a circuit**. I will be utilizing the [previous project's circuit](https://ritishpaul.github.io/ritish_blog/project/Arduino-Ultrasonic-Sensor.html) and apply the lcd display to it
+Hello! Today's tutorial will introduce a versatile and common tool used in arduino projects, the LCD display. This project will **expand your knowledge of arduino code** and
+**wire management in a circuit**. I will be utilizing the [previous project's circuit](https://ritishpaul.github.io/ritish_blog/project/Arduino-Ultrasonic-Sensor.html) and apply the LCD display to it
 in order to show the application of this device. 
 
 ## Required Items
@@ -27,13 +27,14 @@ in order to show the application of this device.
 #### Concept and Structure
 
 ![LCD Diagram](/ritish_blog/images/lcddiagram.png)
+##### Source: IJRASET
 
-The Liquid Crystal Display (LCD) is a display technology that is popular and used in many electronic projects due to their ability to present information while remaining cheap. It uses
-liquid filled crystals to produce images which is due their light modifying properties. Additionally, the crystals themselves do not produce the light for the image rather, they
-redirect light created by a backlight. Character LCDs come in many different display sizes with the most popular being 8x1, 8x2, 16x2, and 20x4. The LCD primarily comes with 16 pins (some have 14) which are located at the top left of the display.
+The Liquid Crystal Display (LCD) is a display technology that is popular and used in many electronic projects due to its ability to present information while remaining cheap. It uses
+liquid filled crystals to produce images because of their light modifying properties. Additionally, the crystals themselves do not produce the light for the image rather, they
+redirect light created by a backlight. LCD displays come in many different sizes with the most popular ones being 8x1, 8x2, 16x2, and 20x4. The LCD primarily comes with 16 pins (some have 14) which are located at the top left of the display.
 Starting from left to right we have the VSS, VDD, VO, RS, R/W, E, data pins 0-7, A, and K.  
 
-If you wish to know more about how an LCD works, here is an excellent indepth three part video series by The 8-Bit Guy on [youtube](https://www.youtube.com/watch?v=hZRL8luuPb8&t=103s).
+If you wish to know more about how an LCD works, here is an excellent indepth three part video series by The 8-Bit Guy on [youtube](https://www.youtube.com/watch?v=hZRL8luuPb8&t).
 
 #### LCD Pins Explained
 
@@ -43,7 +44,7 @@ VO - pin is connected to the potentiometer in order to control brightness of the
 RS - register select pin for whether or not user is sending data or commands to the LCD  
 R/W - read/write pin that chooses if the user will read or write to LCD  
 E - enables 8 data pins for writing  
-D0-D7 - data pins that allow information to be send from the LCD to arduino and vice versa  
+D0-D7 - data pins that allow information to be sent from the LCD to arduino and vice versa  
 A and K - anode and cathode pins for the LCD backlight  
 
 Note: This circuit uses 4 out of the 8 data pins meaning it will be in 4-bit mode.
@@ -52,17 +53,17 @@ Note: This circuit uses 4 out of the 8 data pins meaning it will be in 4-bit mod
 
 ![LCD Circuit](/ritish_blog/images/circuitlcd.PNG)
 
-As you see the circuit you will notice that each wire is color coded with its repsective part. This being yellow for the LCD display, blue for the 10k potentiometer, and green for the ultrasonic sensor.
+As you examine the circuit you will notice that each wire is color coded with its repsective part. This being yellow for the LCD display, blue for the 10k potentiometer, and green for the ultrasonic sensor.
 
 #### LCD Display
-Starting off with the LCD display, the VSS and VDD pins are connected to the ground and 5V rails at the top. VO is connected to the center pin of the potentiometer. The RS pin is connected to the 13 pin of the arduino.
+Starting off with the LCD display, the VSS and VDD pins are connected to the ground and 5V rails at the top of the breadboard. VO is connected to the center pin of the potentiometer. The RS pin is connected to the 13 pin of the arduino.
 The R/W pin is connected to the ground rail. The E pin is connected to pin 12 of the arduino. Data pins 4-7 are connected with pins 11, 10, 9, and 8 respectively. Lastly, the anode pin for the backlight is connected
-through a 220 ohm resistor that connects to the 5V rail and cathode pin connects to ground rail.
+through a 220 ohm resistor that connects to the 5V rail and the cathode pin connects to the ground rail.
 
 #### Potentiometer
 
 The second component that is required to use an LCD display is a potentiometer. The left most pin of it is connected to the ground rail and the right most pin is connected to the 5V rail. Thus, this leaves the center pin
-which is connected to the VD pin of the LCD display.
+that is connected to the VD pin of the LCD display.
 
 #### Ultrasonic Sensor
 
@@ -130,20 +131,27 @@ lcd.clear();
 
 #### Code Explained
 
-In order to get the LCD to function, you must call the Liquid Crystal library that Arduino has created. Afterwards I declared the LCD display pins that I have connected to my arduino and initialized the LCD with the name "lcd"
-Note, the parameters of the LiquidCrystal function are the pins of the RS, E, and digital pins you have used. In the void setup method you write .begin(), the parameters of it are columns, rows, this is the opposite
+In order to get the LCD to function, you must call the Liquid Crystal library that Arduino has created. Afterwards I declared the LCD display pins that I have connected to my arduino and initialized the LCD with the name "lcd".
+Note the parameters of the LiquidCrystal function are the pins of the RS, E, and digital pins you have used. In the void setup method you write .begin(), the parameters of it are columns, rows. This is the opposite
 in math so do not get confused and switch them up. Lastly, in the void loop method we must tell the arduino how it will display the information of the ultrasonic sensor to the LCD. 
-This is done by using the .setCursor(); function which sets the origin point of where it will show your message. Now I can finally begin printing my desired message in the first column and first row of the LCD display!
+This is done by using the .setCursor() function which sets the origin point of where it will show your message. Now I can finally begin printing my desired message in the first column and first row of the LCD display!
 Once more I moved cursor to the first column, second row and print the distance of the object that the ultrasonic sensor is detecting. The function .clear(); is used to prevent the messages from merging and distorting 
 with its previous copy. 
 
 ## Reflection 
 
 ![Luv LCD](/ritish_blog/images/luvlcd.gif)
+##### Source: gfycat
 
 The LCD display can turn out to be an extremely useful component for your arduino project as it removes the need for the user to open up the program's serial monitor. This is crucial 
 if you are thinking of using something like an arduino nano to create a portable project that does not use your PC for the power source. Additionally, for new arduino users 
 it is one of the first times they will realize the importance of wire management. Although I tried my best with connecting the wires as neat as possible, it still looks clogged with jumper wires everywhere. 
-Now imagine this on a large scale project like a drone or RC car! As a result, I would recommend buying U shaped jumper wires like [these](https://amzn.to/2F8kuF8) or threads to group your wires together. 
+Now imagine this on a large scale project like a drone or RC car! As a result, I would recommend buying U shaped jumper wires like [these](https://amzn.to/2F8kuF8) or threads to group your wires together. Until next time, cheers!
+
+## Sources
+- [How LCD Displays Work](https://bit.ly/2DBFFPs)
+- [LCD Technology] (https://www.xenarc.com/lcd-technology.html)
+- [Building a Basic 16x2 Character LCD] (https://www.electronicsforu.com/resources/learn-electronics/16x2-lcd-pinout-diagram)
+
 
 
