@@ -6,10 +6,9 @@ permalink: /:categories/:title.html
 
 ---
 
-![LCD Arduino](/ritish_blog/images/ledArduino.jpg)
+![LCD Arduino](/ritish_blog/images/ledarduino.jpg)
 
-Hello! Today's tutorial will introduce a versatile and common tool used in Arduino projects, the LCD display. This project will **expand your knowledge of Arduino code** and
-**wire management in a circuit**. I will be utilizing the [previous project's circuit](https://ritishpaul.github.io/ritish_blog/project/Arduino-Ultrasonic-Sensor.html) and apply the LCD display to it
+Hello! Today's tutorial will introduce a versatile and common tool used in Arduino projects, the LCD display. This project will **expand your knowledge of Arduino code** and **wire management in a circuit**. I will be utilizing the [previous project's circuit](https://ritishpaul.github.io/ritish_blog/project/Arduino-Ultrasonic-Sensor.html) and apply the LCD display to it
 in order to show the application of this device.
 
 ## Required Items
