@@ -52,8 +52,7 @@ It is important in this tutorial as we must use it in order to get the correct c
 In this case the speed of sound is 340m/s, by using dimensional analysis we can convert that rate into **0.034cm/µs**. Note that time will always be in microseconds when doing this type of conversion for this.
 
 #### Code
-
-
+```
 // define pins  
 int trigPin = 2;  
 int echoPin = 3;  
@@ -87,7 +86,7 @@ void loop() {
   Serial.println(" cm");  
   delay(750);  
 }  
-
+```
 
 #### Code Explained
 
