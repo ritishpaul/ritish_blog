@@ -151,4 +151,4 @@ Now imagine this on a large scale project like a drone or RC car! As a result, I
 ## Sources
 - [How LCD Displays Work](https://bit.ly/2DBFFPs)
 - [LCD Technology](https://www.xenarc.com/lcd-technology.html)
-- [How 16×2 LCDs Work | Build a Basic 16×2 Character LCD](https://www.electronicsforu.com/resources/learn-electronics/16x2-lcd-pinout-diagram)
+- 
