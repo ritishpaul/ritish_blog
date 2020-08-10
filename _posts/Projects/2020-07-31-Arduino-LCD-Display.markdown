@@ -70,16 +70,16 @@ Refer to this [tutorial](https://ritishpaul.github.io/ritish_blog/project/Arduin
 
 ## Code 
 
-```// library: 
-#include <LiquidCrystal.h>  
+// library    
+#include <LiquidCrystal.h>    
 
-// define LCD display pins  
-int rs = 13;  
-int en = 12;  
-int d4 = 11;  
-int d5 = 10;  
-int d6 = 9;  
-int d7 = 8;  
+// define LCD display pins      
+int rs = 13;    
+int en = 12;	
+int d4 = 11;	
+int d5 = 10;	
+int d6 = 9;		
+int d7 = 8;		 
 
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7); // Initialize LCD Display  
 
@@ -125,7 +125,7 @@ lcd.print(" cm");
 delay(1000);  
 lcd.clear();  
 }  
-```
+
 #### Code Explained
 
 In order to get the LCD to function, you must call the Liquid Crystal library that Arduino has created. Afterwards I declared the LCD display pins that I have connected to my arduino and initialized the LCD with the name "lcd"
