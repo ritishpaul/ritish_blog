@@ -16,7 +16,7 @@ According to google a printed circuit board or PCB is...
 
 >an electronic circuit consisting of thin strips of a conducting material such as copper, which have been etched from a layer fixed to a flat insulating sheet called a printed circuit board, and to which integrated circuits and other components are attached.
 
-A more simpler definition would be that it is a board that connects electronic components. In order to appreciate the PCBs importance in the modern day, let us go back into history and discuss its lifespan.
+A more simpler definition would be that it is a board that connects electronic components. The board uses "conductive pathways", "tracks", or "signal traces" that are etched from copper sheets and fixed into it. In order to appreciate the PCBs importance in the modern day, let us go back into history and discuss its lifespan.
 
 ## History of the PCB
 #### Part 1: Creation
@@ -51,3 +51,10 @@ This layer on top of the copper foil is what gives the PCB its recognizable gree
 #### Silkscreen
 
 The final layer of a PCB is the white silkscreen that is applied on top of the soldermask. Silkscreen adds the letters, numbers, and symbols, to the device that allows the user to better understand the board. It is often used as labels to indicate the function of a pin and can come in almost every color.
+
+## Different Types of PCBs
+
+![Multi Layered PCB](/ritish_blog/images/multilayeredPCB.jpg)
+##### Source: Agile Circuit Co., Ltd
+
+PCBs come in different versions with the most basic type being the single layered original board that has been previously talked about in this article. Research and development of this device have created multi and double layered versions. Essentially, these boards laminated multiple copper layers to two or more substrate layers which made it possible to add more electrically dense components. Thus, you can create even more powerful devices using these modified boards and if it breaks, you can simply buy a new one instead of attempting to repair it due to its affordability.
