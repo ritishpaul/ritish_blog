@@ -5,7 +5,7 @@ categories: article
 permalink: /:categories/:title.html
 ---
 
-![PCB](/ritish_blog/images/PCB.jpg)
+![PCB](/ritish_blog/images/printedcircuitboard.jpg)
 ##### Source: Wikipedia
 
 This is my first article which will be talking about printed circuit boards. I am going to start writing these types of posts in hope of diversifying my blogs since
@@ -20,7 +20,7 @@ According to google a printed circuit board or PCB is...
 A more simpler definition would be that it is a board that connects electronic components. In order to appreciate the PCBs importance in the modern day, let us go back into history and discuss its lifespan.
 
 ## History of the PCB
-#### Part 1: Humble Beginnings
+#### Part 1: Beginnings
 
 ![Paul Eisler](/ritish_blog/images/pauleisler.jpg)
 ##### Source: IMS Vintage Photos
