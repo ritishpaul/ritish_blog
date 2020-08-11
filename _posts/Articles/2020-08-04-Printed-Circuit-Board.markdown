@@ -58,3 +58,12 @@ The final layer of a PCB is the white silkscreen that is applied on top of the s
 ##### Source: Agile Circuit Co., Ltd
 
 PCBs come in different versions with the most basic type being the single layered original board that has been previously talked about in this article. Research and development of this device have created multi and double layered versions. Essentially, these boards laminated multiple copper layers to two or more substrate layers which made it possible to add more electrically dense components. Thus, you can create even more powerful devices using these modified boards and if it breaks, you can simply buy a new one instead of attempting to repair it due to its affordability.
+
+## Conclusion
+
+In conclusion, I hope you learned a thing or two regarding PCBs and are able to recognize the importance they have in our everyday lives. Another amazing thing about this device is that you can create one yourself! [Here](https://www.youtube.com/watch?v=_3jFsNffzxQ) is a two part video series made by Circuit Basics on YouTube that teaches you how to configure your own board. Researching and writing about this topic was a blast and I hope to see you again when I talk about another topic in the vast field of technology!
+
+## Sources
+- [PCB Basics](https://learn.sparkfun.com/tutorials/pcb-basics/all)
+- [What's a Printed Circuit Board?](https://www.power-and-beyond.com/whats-a-printed-circuit-board-a-893758/)
+- [History of the Printed Circuit Board](https://history-computer.com/ModernComputer/Basis/printed_board.html)
