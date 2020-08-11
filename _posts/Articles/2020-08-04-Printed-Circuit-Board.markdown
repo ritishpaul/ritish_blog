@@ -19,19 +19,35 @@ According to google a printed circuit board or PCB is...
 A more simpler definition would be that it is a board that connects electronic components. In order to appreciate the PCBs importance in the modern day, let us go back into history and discuss its lifespan.
 
 ## History of the PCB
-#### Part 1: Beginnings
+#### Part 1: Creation
 
 ![Paul Eisler](/ritish_blog/images/pauleisler.jpg)
 ##### Source: IMS Vintage Photos
 The story of the PCB starts with the life of Paul Eisler, an Austrian Jew that was born in Vienna in 1907. At the age of 23, he had graduated with an engineering degree from the Vienna University of Technology. For the next 5 years or so Eisler wrote for newspapers, started a journal about radios, and began to learn about printing technology. It was also during this time that he began to think about how the printing process could be used to lay down electronic circuits on a insulated base. Ultimately, the idea of printing wires on a board and mounting elements over it started here. In 1936, he decided to leave Austria for London in order to escape Nazi persecution. In London Eisler created the first printed circuit for a music typewriter for the musical printing company Henderson and Spalding. In 1943 he filed for a patent and from here he gained a small amount of fame as after the Second World War the technology spread and the United States mandated airborne instrument circuitry was to be printed. The patents themselves did not net Eisler that much profit and in the later years of his life he bounced from field to field creating multiple inventions. Ultimately, Paul Eisler's invention of the printed circuit board brought him little financial return but instead benefitted the entire world's electronics industry as it would be widely used. He passed away in London on the 26th of October, 1992, aged 85.
 
-##### Part 2: Modern Day
-
+#### Part 2: Modern Day
 
 Today PCBs can be found everywhere we look, from the PC you are currently using to see this message, to household appliances. Modern electronics has been founded on this very device, they are present in medical equipment, manufacturing machinery, and the very machines that make them! From a simple electronic children's toy to space ships, the world's technology is held upon PCBs. It almost makes you wonder how a world without this device would even function. But from this thought also recognize that all it took was the idea of Paul Eisler, a single person, to thrust humanity into a new technological era. Despite PCBs existing for 80 years, the worldwide market is continuing to grow with Lucintel’s Printed Circuit Board (PCB) Market Report 2019 predicting the global PCB market to reach USD 89.7 billion by 2024.
 
 ## Composition of a PCB
 
 ![PCB Composition](/ritish_blog/images/PCBcomposition.jpg)
+##### Source: Electronics For You
 
 Think of a PCB as a cake that has alternating layers of different materials that are laminated together to create a single object.
+
+#### Substrate
+
+The base material of a PCB is often fiberglass which is given the name "FR4. Characteristics for this material include its rigidness and thickness, while also being flexible. Cheaper versions of this are made with other materials like epoxy or phenolics and lack the durability of FR4.
+
+#### Copper
+
+After the FR4, the next layer is a think copper foil that is lamented onto the board with heat and adhesive. Copper is a component due to its obvious conductive ability, with it having the best conductivity amongst metals.
+
+#### Soldermask
+
+This layer on top of the copper foil is what gives the PCB its recognizable green color. It is a protective layer of thin polymer that is applied on the top and bottom of the PCB. Its function is to protect the copper from oxidation and prevent accidental contact with other metal or conductive areas.
+
+#### Silkscreen
+
+The final layer of a PCB is the white silkscreen that is applied on top of the soldermask. Silkscreen adds the letters, numbers, and symbols, to the device that allows the user to better understand the board. It is often used as labels to indicate the function of a pin and can come in almost every color.
