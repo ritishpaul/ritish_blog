@@ -5,6 +5,8 @@ categories: project
 permalink: /:categories/:title.html
 ---
 
+![DHT Arduino](/ritish_blog/images/DHTarduino.jpg)
+
 Greetings! I am back with another tutorial about a special tool that you can use in your Arduino projects. The DHT11 Temperature Sensor is a cool and interesting device that allows you to measure the temperature and humidity of the space it is in. This tutorial will help you understand more Arduino code, and learn how to download Arduino libraries. In addition to this I will be hooking it up to a LCD display, check out my [previous tutorial](https://ritishpaul.github.io/ritish_blog/project/Arduino-LCD-Display.html) if you wish to do the same.
 
 ## Required Items
