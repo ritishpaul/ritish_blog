@@ -20,7 +20,7 @@ Greetings! I am back with another tutorial about a special tool that you can use
 
 #### Concept
 
-![DHT11 Diagram](/ritish_blog/images/dhtdiagram.png)
+![DHT11 Diagram](/ritish_blog/images/dhtdiagram.PNG)
 ##### Source: Arduino
 
 The concept of the sensor is that it is a basic, low cost digital temperature and humidity detector. It does this by using two individual sensors, a capacitive humidity sensor and a thermistor to measure the surrounding air to which it sends the data to the connected data pin. Looking at the above diagram, the DHT11 has a simple pin structure as it only has a data, 5V, and ground pin so hooking it up should not be a problem. It also comes in a DHT22 version which has improved capabilities but costs more.
