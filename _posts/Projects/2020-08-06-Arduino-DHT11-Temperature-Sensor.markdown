@@ -121,3 +121,8 @@ With the DHT and LCD libraries declared I defined the type of DHT sensor that is
 ![Cold Fish](/ritish_blog/images/coldfish.gif)
 
 The DHT11 was a blast to research, learn, and code! I learnt to never underestimate devices that are easy to hook up and are small because they can be pretty comprehensive! I learnt the different types of thermistors as well the inner workings of a humidity sensor. In addition to this, reading about the science behind relative humidity and its importance in today's tutorial was an experience that I am proud of. This is because it taught me the lesson of how interconnected engineering is with non STEM such as hydrography and climatology. Hopefully for the reader, it improved your coding skills with Arduino and you learnt how to install libraries in order to make specialized devices work. Thank you for reading and until next time, farewell!
+
+## Sources
+- [DHT11-Temperature and Humidity Sensor](https://components101.com/dht11-temperature-sensor)
+- [DHT11 Sensor and Its Working](https://www.elprocus.com/a-brief-on-dht11-sensor/)
+- [How DHT11 DHT22 Sensors Work & Interface With Arduino](https://lastminuteengineers.com/dht11-dht22-arduino-tutorial/)
