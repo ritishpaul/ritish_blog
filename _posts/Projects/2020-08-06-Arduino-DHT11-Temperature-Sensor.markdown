@@ -36,7 +36,11 @@ The humidity sensor has a moisture holding substrate with two electrodes applied
 
 #### Temperature and the Thermistor
 
+In addition to measuring humidity, the DHT11 can determine the approximate temperature of a space. It does this by utilizing a thermistor. A thermistor is a resistor that changes its resistance with temperature. There are two types of these devices: Negative Temperature Coefficient (NTC) and Positive Temperature Coefficient (PTC). To elaborate, NTC thermistor's resistance decreases with an increase in temperature, whereas PTC thermistor's resistance increases with an increase in temperature. The DHT11 has a surface mounted NTC thermistor since it is the most common between the two. They are made from a semiconducting material that has been heated and compressed to be temperature sensitive.
+
 ![NTC Thermistor](/ritish_blog/images/ntcthermistor.jpg)
 ##### Source: eBay
 
-In addition to measuring humidity, the DHT11 can determine the approximate temperature of a space. It does this by utilizing a thermistor. A thermistor is a resistor that changes its resistance with temperature. There are two types of these devices: Negative Temperature Coefficient (NTC) and Positive Temperature Coefficient (PTC). To elaborate, NTC thermistor's resistance decreases with an increase in temperature, whereas PTC thermistor's resistance increases with an increase in temperature. The DHT11 has a surface mounted NTC thermistor since it is the most common between the two. They are made from a semiconducting material that has been heated and compressed to be temperature sensitive.
+## Circuit Diagram
+
+![Circuit](/ritish_blog/images/circuitdht.jpg)
