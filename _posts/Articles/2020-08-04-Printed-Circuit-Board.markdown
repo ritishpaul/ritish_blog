@@ -38,7 +38,7 @@ Think of a PCB as a cake that has alternating layers of different materials that
 
 #### Substrate
 
-The base material of a PCB is often fiberglass which is given the name "FR4. Characteristics for this material include its rigidness and thickness, while also remaining flexible. Cheaper versions of this are made with other materials like epoxy or phenolics and lack the durability of FR4.
+The base material of a PCB is often fiberglass which is given the name "FR4". Characteristics for this material include its rigidness and thickness, while also remaining flexible. Cheaper versions of this are made with other materials like epoxy or phenolics and lack the durability of FR4.
 
 #### Copper
 
