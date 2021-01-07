@@ -38,9 +38,6 @@ The Colossus is regarded as the world's first programmable, electronic, digital 
 ENIAC or Electronic Numerical Integrator and Computer was the world's first general purpose digital computer that was able to solve a plethora of numerical problems. It was completed in 1945 and used to calculate artillery ballistics for the U.S. Army's Ballistic Research Laboratory. At the end of the operation in 1956, ENIAC comprised of 20,000 vacuum tubes, 70,000 resistors, 10,000 capacitors, 7200 crystal diodes, 1500 relays and around 5,000,000 hand soldered joints. It weighed more than 27 tons, occupied 1800 square feet, and needed 150kW of electricity to function. ENIAC's calculation speed was impressive as it was one thousand times faster than that of common computers of the time. For example, it calculated a trajectory in 30 seconds which took a human 20 hours to accomplish. As a result, it was an insane machine that thrilled scientists and industrialists all over the world.
 
 ## Conclusion 
-![Computer](/ritish_blog/images/computerfail.gif)
-##### Source: Tenor
-
 Hopefully you learned something new about the first series of computers that rolled out into world almost one hundred years ago. During my research, reading about these old machines made me reflect on the progression of technology in these last centuries. To illustrate this, our pocket sized phones are thousands of times more powerful than the gigantic room sized ones used. The funny question is, could you imagine travelling back in time and meeting with those computer pioneers and showing them the future technology you use? Without a doubt they would stare at the machine in awe and jealousy!
 
 ## Sources
