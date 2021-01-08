@@ -117,9 +117,6 @@ Serial.print("Distance: ");
 Serial.print(pingTravelDistance);  
 Serial.println(" cm");  
 
-{
-    // monkey
-}
 // LCD display print  
 lcd.setCursor(0,0);  
 lcd.print("Target Distance:");  
