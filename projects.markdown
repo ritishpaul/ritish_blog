@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Apps
+permalink: /Apps/
 ---

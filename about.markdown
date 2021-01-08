@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-![Woodblock Painting](/ritish_blog/images/woodblockpainting.jpg)
-
 #### Who am I?
 Hello! My name is Ritishpaul Sangha and I am currently a senior in high school. My passion for all things tech related is what made me create this blog so that I can document my journey in this field. Specifically, the COVID 19 pandemic gave me an opportunity to try web design and Github while learning more about electronic engineering. In addition to this, I hope the people browsing my website may learn at least one piece of information from my posts so that they are less ignorant. 
 
@@ -21,3 +19,5 @@ The current software I use to update this website is:
 - Github
 - Github Pages
 - Git  
+
+![Woodblock Painting](/ritish_blog/images/woodblockpainting.jpg)
