@@ -20,4 +20,3 @@ The current software I use to update this website is:
 - Github Pages
 - Git  
 
-![Woodblock Painting](/ritish_blog/images/woodblockpainting.jpg)
