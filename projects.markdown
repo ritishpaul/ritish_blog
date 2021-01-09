@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Apps
-permalink: /apps/
+permalink: /projects/
 ---
 
 ## Remove Tic-Tac-Toe
